@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- TITLE -->
+    <title>Portfólio</title>
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <!-- METAS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Calebe Medeiros" />
+    <meta
+      name="description"
+      content="Portfólio de Calebe Medeiros, desenvolvedor web apaixonado por criar experiências digitais incríveis." />
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://kit.fontawesome.com/8229475aa0.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar-container">
+      <ul>
+        <li>Sobre</li>
+        <li>Habilidades</li>
+        <li>Projetos</li>
+        <li>Contato</li>
+      </ul>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <div class="showcase-container">
+      <h1>Oi, eu sou o<br />Calebe Medeiros</h1>
+      <p>A Professional Web Developer</p>
+    </div>
+
+    <!-- SOBRE MIM -->
+    <div class="section-container">
+      <div class="section-content">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-me-content">
+          <img src="./images/avatar.png" alt="Calebe Medeiros" />
+          <p>
+            Sou um desenvolvedor web apaixonado por criar experiências digitais
+            incríveis. Com habilidades em HTML, CSS e JavaScript, estou sempre
+            buscando aprender novas tecnologias e aprimorar minhas habilidades.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HABILIDADES -->
+    <div class="section-container">
+      <div class="section-content">
+        <h2 class="section-title">Habilidades</h2>
+
+        <div class="skills-content">
+          <div class="skill-item">
+            <img src="./images/html-icon.png" alt="HTML" />
+            <span>HTML</span>
+            <p>
+              Domínio em HTML5, criando estruturas semânticas e acessíveis para
+              websites modernos.
+            </p>
+          </div>
+          <div class="skill-item">
+            <img src="./images/css-icon.png" alt="CSS" />
+            <span>CSS</span>
+            <p>
+              Experiência em CSS3, desenvolvendo layouts responsivos e
+              estilizados para diversas plataformas.
+            </p>
+          </div>
+          <div class="skill-item">
+            <img src="./images/javascript-icon.png" alt="JavaScript" />
+            <span>JavaScript</span>
+            <p>
+              Habilidade em JavaScript, criando interatividade e funcionalidades
+              dinâmicas para websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJETOS -->
+    <div class="section-container">
+      <div class="section-content">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects-content">
+          <!-- LANDING PAGE DE STARTUP -->
+          <div class="project-item">
+            <!-- IMAGEM -->
+            <div class="project-item-image project-item-1"></div>
+
+            <!-- TEXTO TÍTULO E DESCRIÇÃO -->
+            <div class="project-text">
+              <h3>Landing Page de Startup</h3>
+              <p>
+                Uma landing page responsiva para uma startup fictícia,
+                desenvolvida com HTML e CSS.
+              </p>
+            </div>
+          </div>
+
+          <!-- PÁGINA DE HOTEL -->
+          <div class="project-item">
+            <!-- IMAGEM -->
+            <div class="project-item-image project-item-2"></div>
+
+            <!-- TEXTO TÍTULO E DESCRIÇÃO -->
+            <div class="project-text">
+              <h3>Página de Hotel</h3>
+              <p>
+                Uma página web para um hotel, com design elegante e
+                funcionalidade interativa usando JavaScript.
+              </p>
+            </div>
+          </div>
+
+          <!-- PORTFÓLIO DE PROGRAMADOR -->
+          <div class="project-item">
+            <!-- IMAGEM -->
+            <div class="project-item-image project-item-3"></div>
+
+            <!-- TEXTO TÍTULO E DESCRIÇÃO -->
+            <div class="project-text">
+              <h3>Portfólio de Programador</h3>
+              <p>
+                Um portfólio online para um programador, destacando seus
+                projetos e habilidades.
+              </p>
+            </div>
+          </div>
+
+          <!-- PREVISÃO DO TEMPO -->
+          <div class="project-item">
+            <!-- IMAGEM -->
+            <div class="project-item-image project-item-4"></div>
+
+            <!-- TEXTO TÍTULO E DESCRIÇÃO -->
+            <div class="project-text">
+              <h3>Previsão do Tempo</h3>
+              <p>
+                Uma página web para um hotel, com design elegante e
+                funcionalidade interativa usando JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTATO -->
+    <div class="section-container">
+      <div class="section-content">
+        <h2 class="section-title">Entre em Contato</h2>
+        <form class="contact-form" action="">
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Seu Nome"
+            class="form-input"
+            required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Seu e-mail"
+            class="form-input"
+            required />
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Sua Mensagem"
+            class="form-input"
+            required></textarea>
+          <input type="submit" value="Enviar" class="form-button" />
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-container">
+      <div class="social-items">
+        <a href="mailto:franciscocalebe@gmail.com"
+          ><i class="fa-solid fa-envelope fa-xl"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/calebemedeiros/" target="_blank"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a href="https://github.com/calebemedeiros" target="_blank"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a href="https://www.instagram.com/calebemedeirosbsb/" target="_blank"
+          ><i class="fa-brands fa-instagram fa-xl"></i
+        ></a>
+      </div>
+      <p>© 2025 Calebe Medeiros.</p>
+    </footer>
+  </body>
+</html>
